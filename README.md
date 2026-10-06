@@ -9,10 +9,10 @@
   - test: 936행 (2021-08-07 ~ 09-14)
 
 ## 예측 모델
-- **HistGradientBoostingRegressor(HGB)** 기반 전력 예측 (`Best_Way.py`, 이소은 담당)
+- **HistGradientBoostingRegressor(HGB)** 기반 전력 예측 (`Best_Way.py`)
 - 성능: MAE 10.16 / RMSE 14.51 / R² 0.94
 
-## 최적화 (본인 담당)
+## 최적화
 예측 모델을 바탕으로 **피크 전력(최대수요전력) 저감**을 위한 4가지 최적화 방법을 시도했습니다.
 
 | # | 방법 | 아이디어 | 결과 |
@@ -31,7 +31,7 @@
 ## 폴더 구조
 ```
 ├── Best_Way.py                  # 이소은의 HGB 전력 예측 모델
-├── optimization_HGB.ipynb       # 최적화 전체 정리 노트북 (본인 담당)
+├── optimization_HGB.ipynb       # 최적화 전체 정리 노트북
 ├── (기타 모델 비교용 .py 파일들) # DecisionTree, RandomForest, SVR 등 모델 비교
 └── README.md
 ```
